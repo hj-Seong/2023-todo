@@ -15,5 +15,5 @@ const images = ["0.jpg","1.jpg","2.jpg"];
 // 랜덤한 숫자값 0~2 까지 생성
 const randumIndex = Math.floor(Math.random()*images.length);
 
-body.style.backgroundImage = `url(./Img/${images[randumIndex]})`;
+body.style.backgroundImage = `url(./img/${images[randumIndex]})`;
 body.style.backgroundSize = "cover";
